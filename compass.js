@@ -1,7 +1,7 @@
-function Compass(context, x, y, n, m) {
+function Compass(context, x, y, n) {
   this.draw = function (dx, dy, r) {
     context.beginPath();
-    context.arc(n * (x + dx), n * (y + dy), n * r, 0, m * Math.PI);
+    context.arc(n*(dx + x), n*(dy + y), n*r, 0, 2*Math.PI);
     context.stroke();
   };
 }
