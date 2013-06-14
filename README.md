@@ -1,7 +1,9 @@
 compass.js
 ==========
 
-Simple JavaScript library for drawing shapes. http://jsfiddle.net/5ak8P/
+Simple JavaScript library for drawing shapes.
+
+http://jsfiddle.net/5ak8P/
 
 Usage
 -----
@@ -9,3 +11,9 @@ Usage
 Referencing the library:
 
     <script src="//test.smithcart.com/js/compass.js"></script>
+
+Examples
+--------
+
+* A simple pattern using a single compass: http://jsfiddle.net/5MTQ9
+* A more complex pattern using many compasses: http://jsfiddle.net/5ak8P/
