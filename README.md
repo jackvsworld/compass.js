@@ -10,7 +10,7 @@ Usage
 
 Referencing the library:
 
-    <script src="//test.smithcart.com/js/compass.js"></script>
+    <script src="//jackvsworld.github.io/static/js/compass.js"></script>
 
 Examples
 --------
