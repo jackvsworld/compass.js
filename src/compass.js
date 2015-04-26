@@ -1,5 +1,6 @@
 function Compass(context, x, y, n) {
   this.options = {
+    radius: 1,
     color: 'black',
     fill: 'transparent'
   };
@@ -14,8 +15,13 @@ function Compass(context, x, y, n) {
     return this;
   };
 
+  this.radius = function (r) {
+    this.options.radius = r;
+    return this;
+  };
+
   this.draw = function (dx, dy, r) {
-    var r = (r || 1);
+    var r = (r || this.options.radius);
     context.strokeStyle = this.options.color;
     context.fillStyle = this.options.fill;
     context.beginPath();
